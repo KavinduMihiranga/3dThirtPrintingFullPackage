@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2025-11-20T09:54:34.658Z",
-    "end": "2025-11-20T09:54:37.364Z",
-    "duration": 2706,
+    "start": "2025-11-21T08:44:21.060Z",
+    "end": "2025-11-21T08:44:23.756Z",
+    "duration": 2696,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "0f367c61-8b31-4e09-aa6b-1141b878a4f4",
+      "uuid": "7457eb86-91e2-48a7-b3ec-abd1617d6131",
       "title": "",
       "fullFile": "cypress/e2e/product/productDetail.cy.js",
       "file": "cypress/e2e/product/productDetail.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "e95b480d-ea5e-4432-94b8-734318609887",
+          "uuid": "d40094be-455d-4eee-bb47-6958402ae9cb",
           "title": "Product Detail",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "should display product details correctly",
               "fullTitle": "Product Detail should display product details correctly",
               "timedOut": null,
-              "duration": 1878,
+              "duration": 1747,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "detailPage.verifyPageLoaded().verifyProductName('Test Product').verifyProductCategory('Electronics').verifyProductPrice(2999).verifyProductStock(15).verifyProductStatus('in stock').verifyProductDescription('Detailed product description').verifyProductImage();",
               "err": {},
-              "uuid": "5335ee4d-1ecb-42a5-b786-aa3d75ed4ff4",
-              "parentUUID": "e95b480d-ea5e-4432-94b8-734318609887",
+              "uuid": "4bff4055-55fb-489b-8ff2-37c6b69c2fb4",
+              "parentUUID": "d40094be-455d-4eee-bb47-6958402ae9cb",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "should add product to cart",
               "fullTitle": "Product Detail should add product to cart",
               "timedOut": null,
-              "duration": 708,
+              "duration": 768,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,21 +65,21 @@
               "context": null,
               "code": "detailPage.clickAddToCart();\ncy.url().should('include', '/cart');",
               "err": {},
-              "uuid": "4898065e-68db-4817-ab11-a0667417f08d",
-              "parentUUID": "e95b480d-ea5e-4432-94b8-734318609887",
+              "uuid": "83947a0b-7cef-48ac-9853-50833194c68a",
+              "parentUUID": "d40094be-455d-4eee-bb47-6958402ae9cb",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "5335ee4d-1ecb-42a5-b786-aa3d75ed4ff4",
-            "4898065e-68db-4817-ab11-a0667417f08d"
+            "4bff4055-55fb-489b-8ff2-37c6b69c2fb4",
+            "83947a0b-7cef-48ac-9853-50833194c68a"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2586,
+          "duration": 2515,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
